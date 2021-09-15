@@ -1,6 +1,44 @@
-.nav-link{
-    font-style: strong;
+header{
+    text-align: center;
+    margin-top: -1%;
+    height: 50vh;
+    background: linear-gradient(rgba(0,0,0,15), rgba(0,0,0,0.5)),url("headerbackground.jpg");
+    background-size:cover;
+    width: -250%;
+    color: antiquewhite;
+    width: 100.8%;
+    margin-left: -1%;
+    background-repeat:round;
 }
-.jumbotron-fluid{
-    height: 200px;
+.nav-menu{
+    float: right;
+    list-style: none;
+    height: 60px;
+    
+}
+.nav-menu li{
+    display: inline-block;
+    padding: 20px;
+}
+.nav-menu a{
+    color:rgb(253, 253, 253);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav-menu li a:hover{
+    border: 1px solid black;
+    background-color:lightgray;
+    color: black;
+}
+.title{
+    float: inline-start;
+    padding-top: 10%;
+}
+h1{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
