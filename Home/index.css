@@ -12,6 +12,7 @@ header{
     float: right;
     list-style: none;
     height: 60px;
+    font-size: small;
     
 }
 .nav-menu li{
@@ -81,8 +82,11 @@ hr{
     display: flex;
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color:rgba(194, 51, 163, 0.692);
+    background-image: url("cool-background.png");
     background-size: cover;
+    color: beige;
+    font-size: x-large;
+    
 }
 .flex-inner{
     display: flex;
